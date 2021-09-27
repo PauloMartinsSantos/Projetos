@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace VisualizadorProdutos
 {
@@ -17,5 +18,56 @@ namespace VisualizadorProdutos
             InitializeComponent();
         }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string[] nomeModeloDosCarros = Directory.GetFiles(@"C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\Imagens\Carros");
+            
+            // foreach = para cada elemento faça algo....
+            foreach (string img in nomeModeloDosCarros)
+            {
+                
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(comboBox1.Text == "FIAT")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("ARGO");
+                comboBox2.Items.Add("500E");
+                comboBox2.Items.Add("CRONOS");
+
+            }
+            else if (comboBox1.Text == "VOLKSVAGEN")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("GOL");
+                comboBox2.Items.Add("JETTA");
+                comboBox2.Items.Add("TAOS");
+
+            }
+            else if (comboBox1.Text == "CHEVROLET")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("JOY");
+                comboBox2.Items.Add("CAMARO");
+                
+            }
+            else if (comboBox1.Text == "FORD")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("KA");
+                comboBox2.Items.Add("EDGE");
+                comboBox2.Items.Add("MAVERICK");
+            }
+            else if (comboBox1.Text == "RENAULT")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("SANDERO");
+                comboBox2.Items.Add("LOGAN");
+                comboBox2.Items.Add("CAPTUR");
+            }
+        }
     }
 }
