@@ -1,0 +1,17 @@
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\bin\Debug\netcoreapp3.1\VisualizadorProdutos.exe
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\bin\Debug\netcoreapp3.1\VisualizadorProdutos.deps.json
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\bin\Debug\netcoreapp3.1\VisualizadorProdutos.runtimeconfig.json
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\bin\Debug\netcoreapp3.1\VisualizadorProdutos.runtimeconfig.dev.json
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\bin\Debug\netcoreapp3.1\VisualizadorProdutos.dll
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\bin\Debug\netcoreapp3.1\VisualizadorProdutos.pdb
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.csproj.AssemblyReference.cache
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.Form1.resources
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.Properties.Resources.resources
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.csproj.GenerateResource.cache
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.AssemblyInfoInputs.cache
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.AssemblyInfo.cs
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.csproj.CoreCompileInputs.cache
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.dll
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.pdb
+C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\obj\Debug\netcoreapp3.1\VisualizadorProdutos.genruntimeconfig.cache
