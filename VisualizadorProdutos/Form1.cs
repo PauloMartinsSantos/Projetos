@@ -21,16 +21,21 @@ namespace VisualizadorProdutos
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             string[] nomeModeloDosCarros = Directory.GetFiles(@"C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\Imagens\Carros");
-            
+
             // foreach = para cada elemento faça algo....
             foreach (string img in nomeModeloDosCarros)
             {
-                
+                //array de separação do caminho da imagem
+                string [] separador = img.Split('\\');
+                string[] nomeSelecionado = separador[9].Split('.');
+                MessageBox.Show(nomeSelecionado[0]);
+               
             }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            comboBox2.Text = string.Empty;
             if(comboBox1.Text == "FIAT")
             {
                 comboBox2.Items.Clear();
