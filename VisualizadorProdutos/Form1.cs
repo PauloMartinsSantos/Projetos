@@ -28,7 +28,14 @@ namespace VisualizadorProdutos
                 //array de separação do caminho da imagem
                 string [] separador = img.Split('\\');
                 string[] nomeSelecionado = separador[9].Split('.');
-                MessageBox.Show(nomeSelecionado[0]);
+                
+                
+                if (comboBox2.Text == nomeSelecionado[0])
+                {
+                    pictureBox1.ImageLocation = @"C:\Users\paulo.santos-ext\source\repos\Projetos\VisualizadorProdutos\Imagens\Carros\" + comboBox2.Text + ".jpg";
+                    pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                }
+               
                
             }
         }
