@@ -20,7 +20,7 @@ namespace VisualizadorProdutos
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string[] nomeModeloDosCarros = Directory.GetFiles(@"C:\Users\paulo.santos-ext\Documents\Codificados\Projetos\VisualizadorProdutos\Imagens\Carros");
+            string[] nomeModeloDosCarros = Directory.GetFiles(@"C:\Users\paulo.santos-ext\source\repos\Projetos\VisualizadorProdutos\Imagens\Carros\");
 
             // foreach = para cada elemento faça algo....
             foreach (string img in nomeModeloDosCarros)
